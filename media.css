@@ -1,5 +1,10 @@
 @media screen and (max-width: 780px) {
 
+* {
+  border: 1px solid white;
+}
+
+
 
 .section1 {
   margin-bottom: -175px;
@@ -33,9 +38,18 @@
     flex-wrap: wrap;
   }
 
-  #employment {
+  /* #employment {
         margin-top: 195px;
+  } */
+.section2-header-container {
+  margin: 0;
+}
+
+
+.employment-item-container {
+    margin: 30px 0;
   }
+
 
   .employment-item-header-container {
     flex-wrap: wrap;
@@ -46,7 +60,7 @@
 
   .job-title-container {
     line-height: 0;
-    margin-left: 10px;
+    /* margin-left: 10px; */
   }
 
   .job-title-container {
