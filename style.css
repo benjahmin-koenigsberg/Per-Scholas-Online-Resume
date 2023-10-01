@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-* {
-        /* border: 1px solid white; */
+html {
+    max-width: 100%;
 }
 
 body {
