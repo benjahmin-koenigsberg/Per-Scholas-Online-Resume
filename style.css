@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 html {
-    max-width: 100%;
 }
 
 body {
@@ -10,6 +9,7 @@ body {
     font-family: 'Poppins', sans-serif;
     color: gray;
     background-color: black;
+    max-width: 100vw;
 }
 
 .main-container {
