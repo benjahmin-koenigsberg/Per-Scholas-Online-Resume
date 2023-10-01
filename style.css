@@ -210,6 +210,7 @@ body {
 
 .skills-section-container {
     margin-bottom: 30px;
+    width: 95%;
 }
 
 .skills-section-container>h2 {
@@ -315,9 +316,9 @@ body {
 .langauge-skill-container {
 display: flex;
 align-items: center;
-width: 50%;
+width:fit-content;
 }
 
 .langauge-skill-container > h3 {
-    margin-right: auto;
+    margin-right: 2rem;
 }
