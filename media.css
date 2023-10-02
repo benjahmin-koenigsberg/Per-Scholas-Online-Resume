@@ -1,23 +1,24 @@
 @media screen and (max-width: 780px) {
 
 
-
-
-
-.section1 {
-  margin-bottom: -175px;
-}
-
   .box1 {
     width: 100%;
     text-align: center;
     flex-direction: column;
+    justify-content: center;
   }
 
-  .box1 > img {
+  .name-header-container {
+    width: 100%;
+    text-align: center;
+  }
+
+  .box1>img {
     display: none;
     margin: auto;
   }
+
+
 
   .key {
     margin-right: 10px;
@@ -25,26 +26,44 @@
 
   .box2 {
     width: 100%;
-    height: 180px;
   }
 
-.box3 {
-  margin-bottom: 100px;
-}
+  .contact-info-container {
+    flex-wrap: wrap;
+    font-size: 20px;
+    width: 100%;
+  }
+
+  .key {
+    width: 30%;
+  }
+
+  .value {
+    width: 60%;
+    margin-left: 0;
+  }
+
+  .box3 {
+    margin-bottom: 100px;
+  }
 
   .box1-box2-container {
     flex-wrap: wrap;
   }
 
-  /* #employment {
-        margin-top: 195px;
-  } */
-.section2-header-container {
-  margin: 0;
-}
+
+  .section2 {
+    width: 100%;
+  }
 
 
-.employment-item-container {
+  .section2-header-container {
+    margin: 0;
+    width: 100%;
+  }
+
+
+  .employment-item-container {
     margin: 30px 0;
   }
 
@@ -53,22 +72,16 @@
     flex-wrap: wrap;
     height: auto;
     justify-content: start;
-    width: 60%;
+
   }
 
-  .job-title-container {
-    line-height: 0;
-    /* margin-left: 10px; */
-  }
 
   .job-title-container {
     line-height: 16px;
     margin-left: 0;
   }
 
-  .job-title-container h2 {
-    width: 50ch;
-  }
+
 
   .year {
     margin-left: 0;
